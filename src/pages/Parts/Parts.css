@@ -1,0 +1,56 @@
+.parts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjusted to take full viewport height */
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the spacing between buttons as needed */
+    flex-wrap: wrap; /* Wrap buttons to the next line if they don't fit */
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: fixed;
+    padding-top: 200px;
+    z-index: 200;
+    top: 0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-color: white; /* Optional: Add background color to header */
+    z-index: 200; /* Ensure it stays on top */
+    /* padding-top: 20px; */
+}
+h3{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 550px;
+    
+
+}
+
+.parts-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.parts-button:hover {
+    background-color: #f17c92;
+}
+.parts-button.active {
+    background-color: #f17c92; /* Highlight active button */
+    border: 2px solid rgb(218, 18, 18); /* Optional: Add a border to make it stand out more */
+}

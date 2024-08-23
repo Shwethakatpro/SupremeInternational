@@ -1,0 +1,127 @@
+.recon-container {
+    max-width: 500px !important;
+    height:525px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+    max-height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.recon-hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+.recon-table {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+    }
+.recon-row {
+    display: table-row;
+    
+}
+.recon-cell {
+    display: table-cell;
+    padding: 8px;
+    width:50%;
+    /* border: 1px solid #ddd; */
+}
+.recon-custom-button{
+    font-size: 12px;
+    padding: 10px;
+    height: 10px; 
+    /* width:50%; */
+    width: 150px;
+    background-color: #e9eded;
+    color: #848181;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: left;
+}
+label{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+.recon-tableheader {
+    height:25px;
+       width:500px;
+        border-radius: 10px; 
+        background-color: rgb(220, 133, 34); 
+        color:white ;
+        border: 0;
+        display: block;
+        margin: 10px;
+        font-size: 10px;
+        white-space: nowrap;
+        overflow:hidden; 
+    }
+    .recon-row1 {
+        height:25px;
+        border-radius: 10px; 
+        color:rgb(16, 16, 16) ;
+        border: 0;
+        display: block;
+        margin: 10px;
+        font-size: 10px;
+        white-space: nowrap;
+        overflow:hidden;  
+        border: 1px rgb(163, 161, 161) solid; 
+    }
+    .recon-gap{
+        height:25px;
+        display: table-cell;
+        padding-left: 50px;
+        padding-top: 5px;
+        
+    }
+    .recon-gap1{
+        display: table-cell;
+        padding-left: 60px;
+        padding-top: 5px;
+        
+    }
+    .recon-savebutton{
+    float: left;
+    margin-right: 10px;
+    background-color: rgb(220, 133, 34); 
+    border-radius: 4px;
+    width:60px;
+    height:30px;
+    color: #e9eded;
+    border: none;
+}
+.recon-cancelbutton{
+    background-color: #e9eded;
+    border-radius: 4px;
+    width:60px;
+    height:30px;
+    color: #6c6e6e;
+    border: none;
+
+}
+.recon-space{
+    margin-top: 10px; 
+    padding:10px
+}
+.recon-custom-button-small-input{
+    font-size: 12px;
+    padding: 10px;
+    height: 10px; 
+    width: 100px;
+    background-color: #e9eded;
+    color: #848181;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: left;
+}
+        
+    input[type="checkbox"] {
+        border: 2px solid orange;
+    }
+   
